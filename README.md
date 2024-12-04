@@ -7,7 +7,7 @@ The backend is built using FastAPI, and integrates with a Pinata IPFS node and R
 ## **Live Backend**
 - **Hosted Link**: [Resilient Files API Backend](https://resilientfilesbackend.onrender.com)
 - Visit `/docs` to view all available API endpoints.
-- **Endpoints Overview**: A detailed list of available endpoints can be found [here.](https://github.com/Echo108471/resilientFilesBackend/blob/main/API_README.md)
+- **Endpoints Overview**: A detailed list of available endpoints can be found [here.](https://github.com/Echo108471/ResilientFilesAPI/blob/main/API_README.md)
 
 **Note**: Avoid uploading large files bc I have pinata free tier lmao
 
