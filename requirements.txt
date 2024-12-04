@@ -1,0 +1,11 @@
+cryptoconditions==0.8.1
+pysha3==1.0.2
+python-rapidjson==1.8
+requests==2.28.1
+ipfshttpclient==0.7.0
+FastAPI[all]
+pydantic
+python-multipart
+aiofiles
+# safe-pysha3 # (uncomment only if pysha3 fails; it is technically deprecated)
+python-dotenv
