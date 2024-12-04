@@ -7,9 +7,9 @@ import json
 alice = generate_keypair()
 bob = generate_keypair()
 
-url = "https://resilientfilesbackend.onrender.com/upload_and_store/"  # Use local or Render URL
-url1 = "https://resilientfilesbackend.onrender.com/retrieve_file/"
-url2 = "https://resilientfilesbackend.onrender.com/transfer_ownership/"
+url = "https://resilientfilesapi.onrender.com/upload_and_store/"
+url1 = "https://resilientfilesapi.onrender.com/retrieve_file/"
+url2 = "https://resilientfilesapi.onrender.com/transfer_ownership/"
 
 
 folder_path = "/home/echo108471/retrieved_files/"

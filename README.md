@@ -5,7 +5,7 @@ This project integrates ResilientDB and IPFS to provide an API for managing file
 The backend is built using FastAPI, and integrates with a Pinata IPFS node and ResilientDB via the Python SDK.
 
 ## **Live Backend**
-- **Hosted Link**: [Resilient Files API Backend](https://resilientfilesbackend.onrender.com)
+- **Hosted Link**: [Resilient Files API Backend](https://resilientfilesapi.onrender.com)
 - Visit `/docs` to view all available API endpoints.
 - **Endpoints Overview**: A detailed list of available endpoints can be found [here.](https://github.com/Echo108471/ResilientFilesAPI/blob/main/API_README.md)
 
