@@ -78,30 +78,6 @@ pip install ipfshttpclient==0.7.0
    ```
 
 #### **Terminal 3: Start IPFS Daemon**
-1. Verify IPFS version (`v0.7.0`):
-   ```bash
-   ipfs --version
-   ```
-2. If running IPFS for the first time, initialize it:
-   ```bash
-   ipfs init
-   ```
-3. Start the IPFS daemon:
-   ```bash
-   ipfs daemon
-   ```
-
----
-
-### **3. Running the Application**
-
-
-#### **1. Activate the Virtual Environment**
-```bash
-source venv/bin/activate
-```
-
-#### **2. Download and Install IPFS (Version 0.7.0)**
 
 1. Download the IPFS binary:
    ```bash
@@ -121,18 +97,35 @@ source venv/bin/activate
    ```
    You should see `ipfs version 0.7.0`.
 
-#### **3. Install Dependencies**
+4. If running IPFS for the first time, initialize it:
+   ```bash
+   ipfs init
+   ```
+   
+5. Start the IPFS daemon:
+   ```bash
+   ipfs daemon
+   ```
+
+---
+
+### **3. Running the Application**
+#### **1. Activate the Virtual Environment**
+```bash
+source venv/bin/activate
+```
+
+#### **2. Install Dependencies**
 Ensure all Python dependencies are installed:
 ```bash
 pip install -r requirements.txt
 ```
 
-#### **4. Start the FastAPI Server**
+#### **3. Start the FastAPI Server**
 Run the following command to start the FastAPI server:
 ```bash
 uvicorn main_server_local:app --reload
 ```
-
 
 ---
 
@@ -153,4 +146,3 @@ uvicorn main_server_local:app --reload
 2. Ensure all services (ResilientDB Key-Value, GraphQL API, and IPFS daemon) are running before launching the application.
 
 ---
-
