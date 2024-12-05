@@ -24,32 +24,12 @@ The backend is built using FastAPI, and integrates with a Pinata IPFS node and R
 
 ## **Setup Instructions (Local Installation on Ubuntu 20.04)**
 
-### **0. Configure Local Paths**
-To run the project on custom IPFS Pinata nodes, a local ResilientDB instance, or locally in general:
+### **1. Configure Local Paths**
+To run the project on custom IPFS Pinata nodes and/or a personal hosted ResilientDB instance:
 1. Edit `main_server_local.py` to set:
    - `db_root_url` (ResilientDB URL)
 2. Modify endpoints as necessary for alternative IPFS configurations.
-
----
-
-### **1. Setup Python Environment**
-
-#### **1.1 Use a Virtual Environment**
-1. Create and activate a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-#### **1.2 Install IPFS HTTP Client**
-Ensure the `ipfshttpclient` version matches your IPFS version:
-```bash
-pip install ipfshttpclient==0.7.0
-```
+3. If not using a custom setup, skip this step.
 
 ---
 

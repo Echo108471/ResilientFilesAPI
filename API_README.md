@@ -6,10 +6,10 @@ Uploads a file to IPFS via Pinata, stores metadata in ResilientDB, and returns t
 - **URL:** `/upload_and_store/`
 - **Method:** `POST`
 - **Request Parameters:**
-    - `file` (form-data): The file to be uploaded.
-    - `owner_name` (form-data): The name of the file owner.
-    - `owner_public_key` (form-data): The owner's public key.
-    - `owner_private_key` (form-data): The owner's private key.
+    - `file`  (form-data `UploadFile`): The file to be uploaded.
+    - `owner_name` (form-data `string`): The name of the file owner.
+    - `owner_public_key` (form-data `string`): The owner's public key.
+    - `owner_private_key` (form-data `string`): The owner's private key.
 - **Response:**
     ```json
     {
